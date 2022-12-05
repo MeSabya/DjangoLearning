@@ -26,3 +26,9 @@ Whenever you start the Django server, initially, it looks for the settings.py fi
 So, when you start the Django server, it will first execute the settings.py file and, later, load the required engines and databases.
 
 The settings.py file resides in the main project directory.
+
+## What happens when the Django website receives a request?
+Whenever a user enters the URL in the browser, the Django server receives the request. The server looks for the URL in its URL-config. If the server finds the match there, it will return the corresponding view function.
+
+Then the request is made to the model of an application to get the data. If there is any data to be passed, pass it to the corresponding template. After, the template renders in the browser. If the process does not work as expected, the user will get a “404” error page.
+
