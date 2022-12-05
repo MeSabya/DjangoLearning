@@ -17,6 +17,7 @@ When a user makes a request from your application, a WSGI handler is instantiate
 - Loops through each of the response methods in the reverse order from request middleware.
 - Builds a return value and makes a call to the callback function.
 
-
+#### Reference: 
+https://scalereal.com/backend/2021/07/15/everything-you-need-to-know-about-middleware-in-django.html
 
 
